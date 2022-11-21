@@ -1,8 +1,12 @@
 title: Michael Pavlovsky
 description: my notes
 google_analytics: 
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
-
+highlighter: rouge
 gems:
   - jekyll-mentions
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
