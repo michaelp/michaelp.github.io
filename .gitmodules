@@ -1,0 +1,9 @@
+[submodule "blog/themes/FixIt"]
+	path = blog/themes/FixIt
+	url = https://github.com/hugo-fixit/FixIt.git
+[submodule "blog/themes/ananke"]
+	path = blog/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke
+[submodule "blog/themes/beautifulhugo"]
+	path = blog/themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git

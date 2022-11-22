@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mike&#39;s notes</title>
+    <link>http://github.com/posts/</link>
+    <description>Recent content in Posts on Mike&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Nov 2022 03:46:10 +0000</lastBuildDate><atom:link href="http://github.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://github.com/posts/my-first-post/</link>
+      <pubDate>Tue, 22 Nov 2022 03:46:10 +0000</pubDate>
+      
+      <guid>http://github.com/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,4 @@
+baseURL = 'http://github.com/'
+languageCode = 'en-us'
+title = "Mike's notes"
+theme = 'beautifulhugo'
