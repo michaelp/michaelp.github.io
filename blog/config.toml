@@ -1,4 +1,16 @@
-baseURL = 'http://github.com/'
+baseURL = 'http://github.io/'
 languageCode = 'en-us'
 title = "Mike's notes"
-theme = 'beautifulhugo'
+theme = 'PaperMod'
+paginate= 5
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[params]
+  defaultTheme='light' # auto dark, light
+ 
+# https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml
