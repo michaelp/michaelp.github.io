@@ -11,18 +11,47 @@ googleAnalytics = ""
 enableRobotsTXT = true
 
 [params]
-  defaultTheme='dark' # auto | dark | light
+defaultTheme='dark' # auto | dark | light
+ShowReadingTime=true
+ShowShareButtons= true
+ShowToc= true
+ShowBreadCrumbs= true
+ShowCodeCopyButtons = true
 
-  [[params.socialIcons]]
-  name = "Rss"
-  url = "index.xml"
+[params.profileMode]
+  enabled = true 
+  title = "Mike's notes"
+  # subtitle = "This is subtitle"
+  imageUrl = "https://avatars.githubusercontent.com/u/3293?v=4"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "that's me"
 
-  [[params.socialIcons]]
-  name = "Mastodon"
-  url = "https://mastodon.world/@mike_p"
+[[params.profileMode.buttons]]
+  name = "Posts"
+  url = "posts"
 
-  [[params.socialIcons]]
-  name = "GitHub"
-  url = "https://github.com/michaelp"
+[[params.profileMode.buttons]]
+  name = "Tags"
+  url = "tags"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "index.xml"
+
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://mastodon.world/@mike_p"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/michaelp"
+
+[markup.highlight]
+#noClasses = false
+# anchorLineNos = true
+# codeFences: true
+# guessSyntax: true
+lineNos = true
 
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml
