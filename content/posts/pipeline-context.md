@@ -1,7 +1,9 @@
 ---
 title: "Sharing dynamic state in GitHub workflow"
 date: 2022-12-23T18:43:50Z
-draft: true
+draft: false
+tags: ['github', 'ci/cd']
+categories : ['Development']
 ---
 
 It is common to define and use dynamic variables in GitHub actions. Typical use cases are labelling docker images or generating artifact names. This note outlines the steps required to achieve the goal.
@@ -49,3 +51,4 @@ Dumping the value in JSON format makes troubleshooting an easy task. The line 11
 ## References
 
 [Setting an output parameter](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter)
+

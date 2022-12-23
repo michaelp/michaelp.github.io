@@ -9,7 +9,7 @@ SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
-
+disqusShortname = 'mikes_place_4350'
 [params]
 defaultTheme='dark' # auto | dark | light
 ShowReadingTime=true
@@ -17,9 +17,10 @@ ShowShareButtons= true
 ShowToc= true
 ShowBreadCrumbs= true
 ShowCodeCopyButtons = true
+ShowPostNavLinks = true
 
 [params.profileMode]
-  enabled = true 
+  enabled = false 
   title = "Mike's notes"
   # subtitle = "This is subtitle"
   imageUrl = "https://avatars.githubusercontent.com/u/3293?v=4"
@@ -34,6 +35,10 @@ ShowCodeCopyButtons = true
 [[params.profileMode.buttons]]
   name = "Tags"
   url = "tags"
+
+[params.homeInfoParams]
+  Title = "Welcome to Mike's place"
+  Content = "An infrequently updated collection of technical notes."
 
 [[params.socialIcons]]
 name = "Rss"
@@ -53,5 +58,17 @@ url = "https://github.com/michaelp"
 # codeFences: true
 # guessSyntax: true
 lineNos = true
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
 
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml
