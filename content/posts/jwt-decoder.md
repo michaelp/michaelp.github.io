@@ -6,7 +6,7 @@ tags: ['owasp', 'security', 'jwt']
 categories : ['Development']
 ---
 
-## Introduction
+
 
 JSON Web Token (JWT) is a compact, URL-safe means of representing
 claims to be transferred between two parties. The claims in a JWT
