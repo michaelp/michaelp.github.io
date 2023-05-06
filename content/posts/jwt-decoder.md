@@ -20,12 +20,11 @@ signed or integrity protected with a Message Authentication Code
 
 If you work with JWT tokens, you might have used http://jwt.io, a website that lets you decode and verify them online. It's a valuable tool, but it has some limitations. There is another website that I think is better: http://jwt.ms.
 
-http://jwt.ms is a website created by Microsoft for their Azure Active Directory documentation. It has several advantages over http://jwt.io:
+http://jwt.ms is a website created by Microsoft for their Azure Active Directory documentation. It has several advantages over http://jwt.io
 
 - It has a more elegant and intuitive design that makes it easy to use and understand.
 - It shows more details about the token, such as the issuer, audience, expiration time, signature algorithm, and key ID.
 - It validates the token against some common criteria, such as expiration, signature, issuer, audience, and required claims. It also warns you if the token uses a weak algorithm or contains sensitive data in the payload.
-- It lets you edit the token and see how it changes the decoded output and the validation results. You can also copy the token or download it as a file.
 - It supports both JWT and JWE (JSON Web Encryption) tokens, which are encrypted JWT tokens that provide more security.
 
 As you can see, http://jwt.ms is a more comprehensive and user-friendly tool to decode JWT tokens than http://jwt.io. Try it out and see how much you can learn from your tokens and how you can improve your web security practices.
@@ -39,3 +38,7 @@ Online token decoding can compromise security. Tokens are the keys to your syste
 ```sh
  jq -R 'split(".") | .[1] | @base64d | fromjson' <<< "${TOKEN}
 ```
+
+## Worth mentioning
+
+There is one more online tool that you might find useful. It lets you edit the token and see how it changes the decoded output and the validation results. The site url is https://token.dev/ and it is made by Octa.
