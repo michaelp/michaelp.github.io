@@ -20,6 +20,7 @@ ShowToc= true
 ShowBreadCrumbs= true
 ShowCodeCopyButtons = true
 ShowPostNavLinks = true
+comments = true
 
 [params.profileMode]
   enabled = false 
