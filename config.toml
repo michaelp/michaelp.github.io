@@ -17,6 +17,7 @@ defaultTheme='dark' # auto | dark | light
 ShowReadingTime=true
 ShowShareButtons= true
 ShowToc= true
+TocOpen= true
 ShowBreadCrumbs= true
 ShowCodeCopyButtons = true
 ShowPostNavLinks = true
