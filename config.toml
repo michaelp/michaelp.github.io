@@ -21,6 +21,8 @@ ShowBreadCrumbs= true
 ShowCodeCopyButtons = true
 ShowPostNavLinks = true
 comments = true
+Description = "A technical blog by Michael Pavlovsky."
+author = "Michael Pavlovsky"
 
 [params.profileMode]
   enabled = false 
