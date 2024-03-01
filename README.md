@@ -7,3 +7,4 @@ michaelp.github.io
 To see the preview run
 * Production  `hugo server`
 * Development `hugo server -D` , will show drafts
+* `hugo new content posts/<NAME>.md`
